@@ -1,1 +1,1 @@
-CorvuZ1.github.io/*
+CorvuZ1.github.io/folder_name
