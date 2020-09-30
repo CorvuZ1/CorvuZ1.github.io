@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="shortcut icon" href="logo_vkladka.gif" type="image/x-icon">
+    <link rel="stylesheet" href="page_portfolio_styles.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="adaptive.css">
+    <meta charset="UTF-8">
+    <title>Ритуал PRO | Наши работы</title>
+</head>
+<body>
+   <style>
+       body {overflow-x: hidden}
+    </style>
+   
+    <header>
+        <div class="header_container">
+            <div class="header_container-logo"></div>
+            <div class="header_container-logo-text"></div>
+            <div class="header_container-nav">
+                <ul type="none">
+                    <li><a class="nav_about" href="index.html">О нас</a></li>
+                    <li><a class="nav_if-die" href="page_ifd.html">В случае смерти</a></li>
+                    <li><a class="nav_products" href="page_prod.html">Товары</a></li>
+                    <li><a class="nav_portfolio" href="page_portfolio.html">Наши работы</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+        <main>
+        <div class="img_background"></div>
+        <div class="portfolio_slider">
+            <img src="portfolio_photos/1.jpg">
+            <img src="portfolio_photos/2.jpg">
+            <img src="portfolio_photos/3.jpg">
+            <img src="portfolio_photos/4.jpg">
+            <img src="portfolio_photos/5.jpg">
+            <img src="portfolio_photos/6.jpg">
+        </div>
+        </main>
+        
+    <footer>
+        <div class="footer_container">
+            <span class="footer_name-and-date"></span>
+            <br>
+            <a href="tel:+79613710090" class="footer_phone">8 (961) 3 710 090</a>
+            <a href="https://wa.me/+79174111555" class="footer_phone" title="Нажмите для связи по WhatsApp">8 (917) 4 111 555 <img src="footer_click1.gif"></a>
+        </div>   
+    </footer>
+           <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+           <script src="slick.min.js"></script>
+
+           <script> 
+               
+            $('.portfolio_slider').slick({
+                dots: true,
+                adaptiveHeight: true,
+                slidesToShow:2,
+                slidesToScroll:1,
+                speed:700,
+                variableWidth:true
+            });
+            
+        </script>
+    
+    <script>
+        
+        var date = new Date();
+        var footer_nameDate = document.querySelector(".footer_name-and-date");
+        footer_nameDate.textContent = `Ритуал PRO 2016 - ${date.getFullYear()}`;
+                    
+        var portfolioSlider = document.querySelector(".portfolio_slider");
+        portfolioSlider.addEventListener("click",function(event) {
+            if (event.target.src.endsWith(".jpg")) {
+                window.open(event.target.src, "_blank");
+                window.focus();
+            }
+        })
+        
+                var vh = window.innerHeight * 0.01;
+        
+//        full screen
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+        window.addEventListener('resize', () => {
+
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
+        
+    </script>
+    
+    
+</body>
+</html>

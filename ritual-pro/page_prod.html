@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="logo_vkladka.gif" type="image/x-icon">
+    <link rel="stylesheet" href="page_prod_styles.css">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="adaptive.css">
+    <meta charset="UTF-8">
+    <title>Ритуал PRO | Товары</title>
+</head>
+<body>
+    <header>
+        <div class="header_container">
+            <div class="header_container-logo"></div>
+            <div class="header_container-logo-text"></div>
+            <div class="header_container-nav">
+                <ul type="none">
+                    <li><a class="nav_about" href="index.html">О нас</a></li>
+                    <li><a class="nav_if-die" href="page_ifd.html">В случае смерти</a></li>
+                    <li><a class="nav_products" href="page_prod.html">Товары</a></li>
+                    <li><a class="nav_portfolio" href="page_portfolio.html">Наши работы</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+       
+        <main>
+            <div class="img_background"></div>
+            <div class="prod_products_block">
+                <div class="products_block-kinds">
+                    <ul type=none>
+                        <li>Гранитные прямоугольные</li>
+                        <li>Гранитные семейные</li>
+                        <li>Гранитные фигурные</li>
+                        <li>Мраморные</li>
+                        <li>Вазы и шкатулкии</li>
+                        <li>Надгробные площадки</li>
+                    </ul>
+                </div>
+                   <div class="products_block-content">
+                    <div class="rectangular">
+                        <img id="item1" src="products/Granite_rectangular/1.jpg"><br>
+                        <a id="item2" href="products/Granite_rectangular/2.png">Больше информации</a>    
+                    </div>
+                    <div class="family">
+                        <img id="item3" src="products/Granite_family/1.png">   
+                    </div>
+                    <div class="figured">
+                        <img id="item4" src="products/Granite_figured/1png.png">    
+                    </div>
+                    <div class="marmoreal">
+                        <img id="item5" src="products/Marmoreal/1.jpg">
+                        <img id="item6" src="products/Marmoreal/2.jpg">
+                        <img id="item7" src="products/Marmoreal/3.jpg">
+                        <img id="item8" src="products/Marmoreal/4.jpg">
+                        <img id="item9" src="products/Marmoreal/5.jpg">
+                        <img id="item10" src="products/Marmoreal/6.jpg">
+                        <img id="item11" src="products/Marmoreal/7.jpg">
+                        <img id="item12" src="products/Marmoreal/8.jpg">
+                          
+                    </div>
+                    <div class="tombstones">
+                        <img id="item13" src="products/Tombstones/1.jpg">
+                        <img id="item14" src="products/Tombstones/2.png">
+                        <img id="item15" src="products/Tombstones/3.jpg">    
+                    </div>
+                    <div class="vases_caskets">
+                        <img id="item16" src="products/Vases_caskets/1.jpg">
+                        <img id="item17" src="products/Vases_caskets/2.jpg">
+                        <img id="item18" src="products/Vases_caskets/3.jpg">
+                        <img id="item19" src="products/Vases_caskets/4.jpg">
+                        <img id="item20" src="products/Vases_caskets/5.jpg">
+                        <img id="item21" src="products/Vases_caskets/6.jpg">   
+                    </div>    
+                </div>
+              </div> 
+        </main>
+    <footer>
+        <div class="footer_container">
+            <h1 class="prod_price">Договорная цена</h1>
+            <span class="footer_name-and-date"></span>
+            <br>
+            <a href="tel:+79613710090" class="footer_phone">8 (961) 3 710 090</a>
+            <a href="https://wa.me/+79174111555" class="footer_phone" title="Нажмите для связи по WhatsApp">8 (917) 4 111 555 <img src="footer_click1.gif"></a>
+        </div>   
+    </footer>
+
+    <script>
+        
+        var date = new Date();
+        var footer_nameDate = document.querySelector(".footer_name-and-date");
+        footer_nameDate.textContent = `Ритуал PRO 2016 - ${date.getFullYear()}`;
+        
+        var productsBlock = document.querySelector(".prod_products_block");
+        var list = document.querySelectorAll(".products_block-kinds ul li");
+        
+        var rectangular = productsBlock.querySelector(".rectangular");
+        var family = productsBlock.querySelector(".family");
+        var figured = productsBlock.querySelector(".figured");
+        var marmoreal = productsBlock.querySelector(".marmoreal")
+        var tombstones = productsBlock.querySelector(".tombstones")
+        var vasesAndCaskets = productsBlock.querySelector(".vases_caskets");
+        
+        productsBlock.addEventListener("click", function(event) {
+            var evt = event.target;
+            
+            if (evt.textContent == "Гранитные прямоугольные") {
+                rectangular.style.display = "block";
+                family.style.display = "none";
+                figured.style.display = "none";
+                marmoreal.style.display = "none";
+                tombstones.style.display = "none";
+                vasesAndCaskets.style.display = "none";
+            } else if (evt.textContent == "Гранитные семейные") {
+                rectangular.style.display = "none";
+                family.style.display = "block";
+                figured.style.display = "none";
+                marmoreal.style.display = "none";
+                tombstones.style.display = "none";
+                vasesAndCaskets.style.display = "none";
+                
+            } else if (evt.textContent == "Гранитные фигурные") {
+                rectangular.style.display = "none";
+                family.style.display = "none";
+                figured.style.display = "block";
+                marmoreal.style.display = "none";
+                tombstones.style.display = "none";
+                vasesAndCaskets.style.display = "none";
+                
+            } else if (evt.textContent == "Мраморные") {
+                rectangular.style.display = "none";
+                family.style.display = "none";
+                figured.style.display = "none";
+                marmoreal.style.display = "block";
+                tombstones.style.display = "none";
+                vasesAndCaskets.style.display = "none";
+                
+            } else if (evt.textContent == "Вазы и шкатулкии") {
+                rectangular.style.display = "none";
+                family.style.display = "none";
+                figured.style.display = "none";
+                marmoreal.style.display = "none";
+                tombstones.style.display = "block";
+                vasesAndCaskets.style.display = "none";
+                
+            } else if (evt.textContent == "Надгробные площадки") {
+                rectangular.style.display = "none";
+                family.style.display = "none";
+                figured.style.display = "none";
+                marmoreal.style.display = "none";
+                tombstones.style.display = "none";
+                vasesAndCaskets.style.display = "block";
+            }
+            
+            if (event.target.tagName == "IMG") {
+                window.open(event.target.src, "_blank");
+                window.focus();
+            }
+            
+        })
+        
+        var vh = window.innerHeight * 0.01;
+        
+//        full screen
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+        window.addEventListener('resize', () => {
+
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
+        
+    </script>
+    
+</body>
+</html>

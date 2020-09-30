@@ -1,0 +1,237 @@
+@font-face {
+    font-family: 'default-font';
+    src: url("fonts/static/Lora-MediumItalic.ttf");
+}
+
+/*normalize styles*/
+
+html {height: 100%;background-color: #292929}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display:flex;
+    width: 100%;
+    font-family: 'default-font';
+    flex-direction: column;
+    font-size: 21px;
+    outline: none;
+    background-color: #292929;
+    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
+}
+
+header {
+    background-color:rgba(0, 0, 0, 0.7);
+    border-radius: 0px 0px 30px 30px;
+    margin:0 auto;
+    height: 80px;
+    width: 850px;
+    flex-grow: 0;
+    z-index: 2;
+}
+
+*::selection {
+    background-color: lightgray;
+    color:black;
+}
+
+.header_container .header_container-nav ul{
+    justify-content: center;
+    height: 80px;
+    display:flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header_container .header_container-nav ul li {
+    position: relative;
+}
+
+.header_container .header_container-nav ul li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.nav_portfolio, .nav_if-die, .nav_products, .nav_about {
+    margin:0px 30px;
+    transition-duration: 0.7s;
+    color:white;
+}
+
+.nav_portfolio:hover, .nav_if-die:hover, .nav_products:hover, .nav_about:hover {
+    color:#9b9b9b;
+    transition-duration: 0.0s;
+}
+
+.nav_portfolio::before, .nav_if-die::before, .nav_products::before, .nav_about::before {
+    content:"";
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -26px;
+    height: 3px;
+}
+
+.nav_about:hover::before {width:56px;background-color:#9b9b9b}
+.nav_portfolio:hover::before {width:146px;background-color:#9b9b9b}
+.nav_if-die:hover::before {width:172px;background-color:#9b9b9b}
+.nav_products::before {width:72px}
+/*HEADER-END*/
+
+main {
+    width: 100%;
+    height: 100%;
+    flex-grow: 1;
+    background-color: gray;
+}
+
+main .img_background {
+    width: 100%;
+    height: 100%;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+.prod_products_block {
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0,0,0,0.7);
+    position: relative;
+    z-index: 1;
+    margin:2% auto;
+    color:White;
+}
+
+.products_block-kinds ul{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: space-around;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.products_block-kinds ul li {
+    height: 35px;
+    margin-top: 4px;
+    cursor: pointer;
+    position: relative;
+    border-bottom:3px solid white;
+    transition-duration: 0.7s;
+}
+
+.products_block-kinds ul li:hover {
+    color:#9b9b9b;
+    border-bottom:3px solid #9b9b9b;
+    transition-duration: 0.0s;
+} 
+
+
+.rectangular {display: none;}
+.family {display: none;}
+.figured {display: none;}
+.marmoreal {display: none;}
+.tombstones {display: none;}
+.vases_caskets {display: none;}
+
+.products_block-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    text-align: center;
+}
+.products_block-content img {
+    cursor: pointer;
+}
+
+#item1 {
+    height: 450px;
+    margin-right: 20px;
+}
+
+#item2 {
+    color:white;
+    text-align: center;
+}
+
+#item3 {
+    margin-top: 50px;
+    width: 900px;
+}
+
+#item4 {
+    height: 522px;
+}
+
+
+#item5,#item6,#item7,#item8,#item9,#item10,#item11,#item12 {
+    width: 190px;
+    margin:10px 10px;
+}
+
+#item6,#item10,#item11 {
+    width: 135px;
+}
+
+#item13,#item14,#item15 {
+    width: 420px; 
+    margin: 5px 5px;
+}
+
+#item14 {
+    background-color: white;
+}
+
+#item16,#item17,#item18,#item19,#item20,#item21 {
+    width: 150px;
+    margin: 0px 15px;
+}
+
+.prod_price {
+    font-size: 25px;
+    margin: 0px;
+    padding: 0;
+}
+
+footer {
+    border-top:2px solid white;
+    border-radius: 30px 30px 0px 0px;
+    margin: 0 auto;
+    height: 100px;
+    width: 850px;
+    background-color:rgba(0, 0, 0, 0.6);
+    flex-grow: 0;
+    z-index: 1;
+}
+
+footer .footer_container {
+    padding-top: 5px;
+    height: calc(100% - 5px);
+    color: white;
+    text-align: center;
+}
+
+.footer_phone {
+    display: inline-block;
+    color:white;
+    margin:-2px 23px -2px 23px;
+    font-size: 20px;
+}
+
+footer img {
+    width: 43px;
+    height: 30px;
+    position: relative;
+    bottom: -1px;
+    right: 3px;
+    transform: rotate(190deg);
+}

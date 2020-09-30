@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="logo_vkladka.gif" type="image/x-icon">
+    <link rel="stylesheet" href="adaptive.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="adaptive.css">
+    <meta name="viewport" content="width=device-width">
+    <title>Ритуал PRO | О нас</title>
+</head>
+<body> 
+    <style>
+        @media (max-width: 600px) {
+
+            .plus:nth-child(2),
+            .plus:nth-child(3) {
+                margin-top: 150px;
+            }
+
+            .second_window_h1 {
+                position: relative;
+                bottom: -1150px;
+                margin: 0 auto;
+                padding: 0;
+            }
+
+            footer {
+                bottom: -1370px;
+            }
+        }
+}
+    </style>
+    <header>
+        <div class="header_container">
+            <div class="header_container-logo"></div>
+            <div class="header_container-logo-text"></div>
+            <div class="header_container-nav">
+                <ul type="none">
+                    <li><a class="nav_about" href="index.html">О нас</a></li>
+                    <li><a class="nav_if-die" href="page_ifd.html">В случае смерти</a></li>
+                    <li><a class="nav_products" href="page_prod.html">Товары</a></li>
+                    <li><a class="nav_portfolio" href="page_portfolio.html">Наши работы</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+       <div class="index_first_window">
+        <div class="img_background"></div>
+        <div class="main_info">
+            <h2 class="main_info-title">Мы - организация Ритуал PRO.<br>Занимаемся:</h2>
+      
+            <ul>
+                <li>Благоустройством мест захоронения</li><li>Индивидуальным дизайн</li>
+                <li>Художественной резкой</li>
+                <li>Столами, Скамейками, Вазами</li>
+                <li>Установкой оградок</li>
+                <li>Установкой памятников</li>
+                <br>
+                <p>Всё это Вы можете заказать у Нас по выгодным ценам!Подобрать одну из услуг или же товар, из камня,  Вы можете по по адресу:<br><br> 
+                    <b>г.Стерлитамак, ул.Элеваторная д.114 (небольшой павильон)</b>. <br><br>
+                Заказав в нашей фирме, Вы получите гарантированное качество, и не "кусающуюся" цену, в нашем уютном офисе - Вам помогут подобрать изделия, если вы заказываете памятник, наши работники с удовольствием установят и доставят его!</p>
+            </ul>
+            <div class="main_info-btn">Узнать больше!</div>
+        </div>
+    </div>
+       
+        <div class="index_second_window">
+                          <div class="second_window_pluses">
+                              <div class="plus plus1">
+                                <img class="plus_img1" src="garant.gif">
+                                <h3 class=plus_h3>Мы даем гарантию на предоставляемый товар.</h3>  
+                              </div>
+                              <div class="plus plus2">
+                                <img class="plus_img2" src="24.gif">
+                                <h3 class=plus_h3>Для наших клиентов мы работаем 24 часа в сутки.</h3>  
+                              </div>
+                              <div class="plus plus3">
+                                <img class="plus_img3" src="beznal.gif">
+                                <h3 class=plus_h3>Мы работаем за наличный и безналичный расчет.</h3>  
+                              </div>
+                          </div>
+                          <h1 class="second_window_h1">Почему именно мы?</h1>
+               <footer>
+                   <div class="footer_container">
+                       <span class="footer_name-and-date"></span>
+                       <br>
+                       <a href="tel:+79613710090" class="footer_phone">8 (961) 3 710 090</a>
+                       <a href="https://wa.me/+79174111555" class="footer_phone" title="Нажмите для связи по WhatsApp">8 (917) 4 111 555 <img src="footer_click1.gif"></a>
+                   </div>
+               </footer>
+        </div>
+        
+    </main>
+    
+ 
+
+    
+    <script>
+        
+    var main_btn = document.querySelector(".main_info-btn");
+    var p_main = document.querySelector("main p");
+    var footer_nameDate = document.querySelector(".footer_name-and-date");
+    var date = new Date();
+    var main_info = document.querySelector(".main_info");
+
+    main_btn.addEventListener("click", function() {
+        if (window.matchMedia("(max-height:772px)").matches) {
+            main_info.style.fontSize = "18px";
+            p_main.style.display = "block";
+            main_btn.style.display = "none";
+            main_info.style.top = "-6%";
+    }
+        if (window.matchMedia("(max-width:772px)").matches) {
+            p_main.style.display = "block";
+            main_btn.style.display = "none";
+            main_info.style.top = "-3%"; 
+        }
+        
+        if ((window.matchMedia("(max-width:683px)").matches)) {
+            p_main.style.display = "none";
+            main_btn.style.display = "block";
+            main_info.style.top = "14%"; 
+            alert(`Всё это Вы можете заказать у Нас по выгодным ценам!Подобрать одну из услуг или же товар, из камня, Вы можете по по адресу:\n\nг.Стерлитамак, ул.Элеваторная д.114 (небольшой павильон).\n
+Заказав в нашей фирме, Вы получите гарантированное качество, и не "кусающуюся" цену, в нашем уютном офисе - Вам помогут подобрать изделия, если вы заказываете памятник, наши работники с удовольствием установят и доставят его!`)
+        }
+        
+        else { p_main.style.display = "block";
+        main_btn.style.display = "none";
+        main_info.style.top = "-4.5%";
+    }
+        
+    })
+    
+    footer_nameDate.textContent = `Ритуал PRO 2016 - ${date.getFullYear()}`;
+        
+            var vh = window.innerHeight * 0.01;
+        
+//        full screen
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+        window.addEventListener('resize', () => {
+
+        let vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
+        
+    </script>
+</body>
+</html>
