@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>KREA</title>
+</head>
+<body>
+    <!--1 блок-->
+    <div class="page1">
+       <div class="mobile-menu"></div>
+        <div class="container">
+           <div class="burger">
+               <div class="burger-line1"></div>
+               <div class="burger-line3"></div>
+           </div>
+            <header>
+                <div class="header_logo">
+                    KREA.
+                </div>
+                <nav>
+                    <ul type=none>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#">Works</a></li>
+                        <li><a href="#">References</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>    
+            </header>
+            <div class="center-word">
+                <h1 class="center-word-firstline">Digital Marketing</h1>
+                <h2 class="center-word-secondline">Consultancy</h2>  
+            </div>
+            <div class="scroll-icon">
+                <img class="scroll-img" src="images/scroll-icon.png" draggable="false">
+            </div>  
+        </div>
+    </div>
+       
+        <!--2 блок-->
+        
+    <div class="services">
+       <a name="services"></a>
+        <div class="container">
+            <div class="top-word">
+                <h1 class="top-word_firstline">KREA.</h1>
+                <span class="top-word_services">Services</span>
+            </div>
+            
+            <div class="services_pluses">
+                <div class="plus plus1">
+                    <img class="services1" src="images/services-1.png">
+                    <div class="plus_name">Consultancy</div>
+                    <p class="plus_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget elementum nisi. Curabitur cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula ultricies quam arcu at augue. </p>    
+                </div>
+                <div class="plus plus2">
+                    <img class="services2" src="images/services-2.png"> 
+                    <div class="plus_name">Mentorship</div>
+                    <p class="plus_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget elementum nisi. Curabitur cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula ultricies quam arcu at augue.</p>
+                    <input class="services_button" type="button" value="GET IN TOUCH">
+                </div>
+                <div class="plus plus3">
+                    <img class="services3" src="images/services-3.png">
+                    <div class="plus_name">Incubatory</div>
+                    <p class="plus_info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget elementum nisi. Curabitur cursus, dolor ac tempus pulvinar, risus risus elementum eros, vehicula ultricies quam arcu at augue.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    
+        window.addEventListener("scroll", hashDelete)
+        function hashDelete() {
+            if (window.location.hash) {
+               history.pushState(null,null,"index.html");
+            }   
+        }
+        
+        var servicesBtn = document.querySelector(".services_button");
+        if (window.matchMedia("(max-width:1100px)").matches) {
+            document.querySelector(".plus3").appendChild(servicesBtn);
+        }
+        
+        var navList = document.querySelectorAll("nav ul li a");
+        var mobileMenu = document.querySelector(".mobile-menu")
+        if (window.matchMedia("(max-width:435px)").matches) {
+            for(var a of Array.from(navList)) {
+                a.classList.add("nav-link")
+                mobileMenu.appendChild(a);
+            }
+        }
+        
+        var burger = document.querySelector(".burger");
+        var mobileMenu = document.querySelector(".mobile-menu")
+        burger.addEventListener("click", burgerActivated);
+        
+        function burgerActivated() {
+            mobileMenu.classList.toggle("mobile-menu-close");
+            burger.classList.toggle("burger_active");
+        }
+        
+    </script>
+    
+</body>
+</html>
