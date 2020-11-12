@@ -71,7 +71,7 @@ header nav ul li a{
     position: relative;
     text-align: center;
     margin: 0 auto;
-    top: calc(50% - 125px)
+    top: calc(50% - 125px);
 }
 
 .center-word-firstline{
@@ -262,11 +262,11 @@ header nav ul li a{
 
 @media screen and (max-width: 435px) {
     .center-word-firstline {
-        font-size: 60px;
+        font-size: 55px;
     }
     
     .center-word-secondline {
-        font-size: 35px;
+        font-size: 31px;
     }
     
     .header_logo {
@@ -357,4 +357,11 @@ header nav ul li a{
         font-family: "UbuntuBold";
     }
     
+    .page1 {
+        background-color: red;
+    }
+    
+    .page1 .container {
+        overflow-x: hidden;
+    }
 }
