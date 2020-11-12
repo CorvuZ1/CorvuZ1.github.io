@@ -165,6 +165,7 @@ header nav ul li a{
 }
 
 .plus_name {
+    margin: 15px 0px;
     font-size: 35px;
     color:#787878;
     font-family: "UbuntuBold";
@@ -189,9 +190,9 @@ header nav ul li a{
     background-image: linear-gradient(to top, #4a50a8, #5f407b);
     color:white;
     position: absolute;
-    margin: 0 auto 0px auto;
+    margin: 0 auto 0 auto;
     cursor: pointer;
-    bottom: -30px;
+    bottom: -20px;
 }
 
 /*Пофиксить вертикальную деформацию*/
@@ -239,7 +240,7 @@ header nav ul li a{
     
     .plus3 {
         padding-top: 10vh;
-        padding-bottom: 60px;
+        padding-bottom: 100px;
     }
     
     .container {
@@ -283,7 +284,7 @@ header nav ul li a{
     }
     
     .services_button {
-        bottom: -55px;
+        bottom: -35px;
         margin: 30px;
         width: 260px;
         font-size: 19px;
@@ -294,27 +295,18 @@ header nav ul li a{
         position: absolute;
         right: 0;
         width: 35px;
-        height: 30px;
-        margin-top: 5px;
+        height: 15px;
+        margin-top: 15px;
         z-index: 5;
+        transform: rotate(180deg);
+        transition-duration: 0.6s;
     }
     
-    .burger-line1, .burger-line1::after,.burger-line3 {
+    .burger-line1,.burger-line3 {
         position: absolute;
         height: 2px;
         width: 100%;
         background: white;
-    }
-    
-    .burger-line1::after {
-        content:"";
-        position: absolute;
-        top: 14px;
-        left: 7px;
-    }
-    
-    .burger_active .burger-line1::after{
-        display: none;
     }
     
     .burger-line3 {
@@ -322,19 +314,22 @@ header nav ul li a{
     }
     
     .burger-line1, .burger-line3 {
-        transition-duration: 0.7s;
+        transition-duration: 0.6s;
     }
     
     .burger_active .burger-line3 {
         transform: rotate(45deg);
-        bottom: 14px;
+        bottom: 6px;
     }
     
     .burger_active .burger-line1 {
         transform: rotate(-45deg);
-        top: 14px;
+        top: 6px;
     }
     
+    .burger_active {
+        transform: rotate(90deg)
+    }
     
     .mobile-menu {
         position: absolute;
@@ -347,7 +342,7 @@ header nav ul li a{
         background-color: #303030;
         height: 100vh;
         width: 100vw;
-        transition-duration: 0.7s;
+        transition-duration: 0.6s;
     }
     
     .mobile-menu-close {
@@ -361,4 +356,5 @@ header nav ul li a{
         margin: 15px;
         font-family: "UbuntuBold";
     }
+    
 }
