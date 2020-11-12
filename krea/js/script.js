@@ -27,3 +27,13 @@ window.addEventListener("scroll", hashDelete)
             mobileMenu.classList.toggle("mobile-menu-close");
             burger.classList.toggle("burger_active");
         }
+
+        // FULL SCREEN
+        var vh = window.innerHeight * 0.01;
+        
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+        window.addEventListener('resize', () => {
+            let vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty('--vh', `${vh}px`);
+        });
