@@ -357,4 +357,8 @@ header nav ul li a{
         font-family: "UbuntuBold";
     }
     
+    body,html {
+        overflow-x:hidden;
+    }
+    
 }
