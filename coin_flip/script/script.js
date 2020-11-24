@@ -6,12 +6,12 @@
     let coinSides = {
         front: {
             name: "Решка",
-            path: "../images/frontSide.gif"
+            path: "./../images/frontSide.gif"
         },
         
         back: {
             name: "Орёл",
-            path: "../images/backSide.gif"
+            path: "./../images/backSide.gif"
         }
     };
 
