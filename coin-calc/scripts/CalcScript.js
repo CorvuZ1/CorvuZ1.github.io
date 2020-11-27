@@ -16,6 +16,11 @@ calc.addEventListener("click", function(event,value=event.target.value) {
 equal.addEventListener("click", function() {
     try {
         result.value = eval(result.value);
+        
+        if(result.value.trim() == "undefined") {
+            throw new Error();
+        }
+        
     } catch(e) {
         var currentValue = result.value;
         for(var item of calc.children) {
@@ -27,6 +32,7 @@ equal.addEventListener("click", function() {
             for(var item of calc.children) {
                 item.disabled = false;
             }
+            result.setAttribute("disabled",null);
             result.value = currentValue;
         },1500)
     }});
@@ -34,12 +40,8 @@ equal.addEventListener("click", function() {
 
 result.addEventListener("keypress", function(event) {
     event.preventDefault();
-})
-
-result.addEventListener("touch", function(event) {
-    event.preventDefault();
-})
+});
 
 reset.addEventListener("click",function() {
     result.value = "";
-})
+});
