@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "NotoSansBold";
+    src: url("../font/Noto_Sans_KR/NotoSansKR-Bold.otf")
+}
+
+@font-face {
+    font-family: "NotoSansMedium";
+    src: url("../font/Noto_Sans_KR/NotoSansKR-Medium.otf")
+}
+
+:root {
+    --succesColor: #00c52b;
+}
+
+*, *:focus {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image:radial-gradient(white,#ffffdf);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc {
+    height: 250px;
+    width: 100%;
+    max-width: 350px;
+    background-color: rgba(0,0,0, 90%);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 20px;
+    grid-column-gap: 5px;
+    padding: 5px 5px;
+}
+
+.result {
+    grid-column: 1/5;
+    height: 35px;
+    text-align: right;
+    align-self: center;
+    width: 97%;
+    max-width: 324px;
+    justify-self: center;
+    padding: 0 3px;
+}
+
+.button {
+    width: 100%;
+    max-width: 70px;
+    min-width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border:none;
+    align-self: center;
+    font-weight: bold;
+    font-size: 18px;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+
+.equal {
+    max-width: 160px;
+    width: 100%;
+    grid-column: 1/3;
+}
+
+.division,.multiply,.minus,.equal,.clear,.plus {
+    background-color: silver;
+}
+
+.button:active {
+    background-color: var(--succesColor);
+    transition-duration: 0s;
+}
