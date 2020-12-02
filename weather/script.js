@@ -1,12 +1,3 @@
-// fullscreen
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-window.addEventListener('resize', () => {
-let vh = window.innerHeight * 0.01;
-document.documentElement.style.setProperty('--vh', `${vh}px`);
-});
-
-
 const apiKEY = "543889e9d4515a140284d0dcc283ef8a";
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?q=";
 
