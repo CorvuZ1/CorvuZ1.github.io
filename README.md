@@ -1,4 +1,4 @@
-* [CorvuZ1.github.io/coin-calc] // Калькулятор и подкидывание монетки со статистикой в localStorage.  
+* <CorvuZ1.github.io/coin-calc> // Калькулятор и подкидывание монетки со статистикой в localStorage.  
 ***
 * [CorvuZ1.github.io/krea] // Делающийся сайт.  
 ***
@@ -6,4 +6,3 @@
 ***
 * [CorvuZ1.github.io/weather] // Узнать погоду. Weather API.  
 ***
-[http://example.com/]: ааа 
