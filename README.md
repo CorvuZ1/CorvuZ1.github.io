@@ -6,4 +6,4 @@
 ***
 * [CorvuZ1.github.io/weather] // Узнать погоду. Weather API.  
 ***
-[ссыка]: http://example.com/  
+[http://example.com/]: ааа 
