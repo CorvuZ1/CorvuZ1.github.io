@@ -80,9 +80,11 @@ btnInput.onclick = () => {
         progress += 1;
         btnProgress.style.width = `${progress}px`;
 
+        // <Эффект подбрасывания>
         if (coin.src.endsWith("frontSide.gif") || coin.src.endsWith("backSide.gif") ) {
             coin.style.transform = `rotateY(${turn += 4.7}deg)`;
         }
+        // </Эффект подбрасывания>
 
         if (progress == 150) {
             clearInterval(progressInterval);
