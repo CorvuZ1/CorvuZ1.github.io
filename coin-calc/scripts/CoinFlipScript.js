@@ -82,7 +82,7 @@ btnInput.onclick = () => {
 
         // <Эффект подбрасывания>
         if (coin.src.endsWith("frontSide.gif") || coin.src.endsWith("backSide.gif") ) {
-            coin.style.transform = `rotateY(${turn += 4.7}deg)`;
+            coin.style.transform = `rotateY(${turn += 4.8}deg)`;
         }
         // </Эффект подбрасывания>
 
