@@ -80,7 +80,6 @@ btnInput.onclick = () => {
         progress += 1;
         btnProgress.style.width = `${progress}px`;
 
-
         if (coin.src.endsWith("frontSide.gif") || coin.src.endsWith("backSide.gif") ) {
             coin.style.transform = `rotateY(${turn += 4.7}deg)`;
         }
