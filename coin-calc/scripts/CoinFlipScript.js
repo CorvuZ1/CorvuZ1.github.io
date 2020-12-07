@@ -49,6 +49,7 @@ let reset = document.querySelector(".reset");
 // </Статистика монетки и проверка на наличие локальной информации>
 
 btnInput.onclick = () => {
+    coin.style.marginBottom = "15px";
     
     setTimeout(() => {
         if (Math.ceil(Math.random() * 2) === 1) {
@@ -69,7 +70,6 @@ btnInput.onclick = () => {
         localStorage.setItem("allStatNum",JSON.stringify(getAgainAll));
         allStat.textContent = getAgainAll;
         
-        coin.style.marginBottom = "15px";
     },750)
 
     btnInput.disabled = true;
