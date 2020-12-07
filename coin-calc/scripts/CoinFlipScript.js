@@ -74,10 +74,16 @@ btnInput.onclick = () => {
 
     btnInput.disabled = true;
 
+    let turn = 0;
     let progress = 0;
     let progressInterval = setInterval(() => {
         progress += 1;
         btnProgress.style.width = `${progress}px`;
+
+
+        if (coin.src.endsWith("frontSide.gif") || coin.src.endsWith("backSide.gif") ) {
+            coin.style.transform = `rotateY(${turn += 4.7}deg)`;
+        }
 
         if (progress == 150) {
             clearInterval(progressInterval);
