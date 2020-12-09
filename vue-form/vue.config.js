@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: "/vue-form/"
+    publicPath: "https://CorvuZ1.github.io/vue-form/"
 }
