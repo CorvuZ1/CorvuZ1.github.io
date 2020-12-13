@@ -6,3 +6,6 @@
 
 * <https://CorvuZ1.github.io/weather> // Узнать погоду. Weather API.  
 
+* <https://CorvuZ1.github.io/vue-form-gh-pages/> Форма с валидацией на Vue
+
+
