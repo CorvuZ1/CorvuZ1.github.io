@@ -8,6 +8,6 @@
 
 * <https://CorvuZ1.github.io/vue-form-gh-pages> // Форма на Vue с Vuelidate.  
 
-* <https://corvuz1.github.io/simon-game-gh-pages> // Simon The Game. На Apple продукции еще пытаюсь пофиксить отображение.
+* <https://corvuz1.github.io/simon-game-gh-pages> // Simon The Game на Vue. На Apple продукции еще пытаюсь пофиксить отображение.
 
 
