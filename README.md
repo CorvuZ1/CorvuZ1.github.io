@@ -6,6 +6,8 @@
 
 * <https://CorvuZ1.github.io/weather> // Узнать погоду. Weather API.  
 
-* <https://CorvuZ1.github.io/vue-form-gh-pages/> // Форма с валидацией на Vue
+* <https://CorvuZ1.github.io/vue-form-gh-pages> // Форма на Vue с Vuelidate.  
+
+* <https://corvuz1.github.io/simon-game-gh-pages> // Simon The Game. На Apple продукции еще пытаюсь пофиксить отображение.
 
 
