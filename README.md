@@ -1,5 +1,7 @@
 * <https://corvuz1.github.io/cryptoConverter> // Конвертер криптовалют с графиком на React  
 
+* <https://corvuz1.github.io/practice-react> //  Практика по React. Курс В. Минина.
+
 * <https://CorvuZ1.github.io/coin-calc> // Калькулятор и подкидывание монетки со статистикой в localStorage.  
 
 * <https://CorvuZ1.github.io/krea> // Делающийся сайт.  
