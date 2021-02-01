@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Lato-b";
+  src: url("font/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-r";
+  src: url("font/Lato-Regular.ttf");
+}
+
+@mixin font($font) {
+  font-family: $font;
+}
+
+@mixin fontSize($origFontSize, $minFontSize) {
+  font-size: calc(#{$minFontSize + px} + (#{$origFontSize - $minFontSize}) * ((100vw - 320px) / (1600 - 320)));
+}
+
+// min - сколько выглядеть на 320px
