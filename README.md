@@ -4,6 +4,8 @@
 
 * <https://Corvuz1.github.io/practice-react> //  Сайт с тестами.  
 
+* <https://corvuz1.github.io/strict> // Верстка сайта.  
+
 * <https://Corvuz1.github.io/github-users> // Поиск пользователей github. API.
 
 * <https://CorvuZ1.github.io/coin-calc> // Калькулятор и подкидывание монетки со статистикой в localStorage.  
