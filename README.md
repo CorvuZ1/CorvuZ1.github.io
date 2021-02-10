@@ -2,6 +2,8 @@
 
 * <https://Corvuz1.github.io/cryptoConverter> // Конвертер криптовалют с графиком на React.  
 
+* <https://github.com/CorvuZ1/test-task> // Тестовое задание. React + Redux. Смотреть лучше локально.
+
 * <https://Corvuz1.github.io/practice-react> //  Сайт с тестами.  
 
 * <https://corvuz1.github.io/strict> // Верстка сайта.  
