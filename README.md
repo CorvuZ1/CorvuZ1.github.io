@@ -3,7 +3,7 @@
 ---
 <https://Corvuz1.github.io/cryptoConverter> // Конвертер криптовалют с графиком на React,  
 <https://github.com/CorvuZ1/cryptoConverter> // Код
-***
+---
 <https://corvuz1.github.io/react-todolist> // Todolist на React,  
 <https://github.com/CorvuZ1/react-todolist> // Код
 ***
