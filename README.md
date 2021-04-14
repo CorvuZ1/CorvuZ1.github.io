@@ -7,7 +7,7 @@
 * <https://corvuz1.github.io/react-todolist> // Todolist на React,  
   <https://github.com/CorvuZ1/react-todolist> // Код  
 
-* <https://github.com/CorvuZ1/test-task> // Код тестового задания: React + Redux.  
+* <https://github.com/CorvuZ1/test-task> // Код тестового задания: React + Redux  
 
 * <https://CorvuZ1.github.io/weather> // Weather API,  
   <https://github.com/CorvuZ1/weather> // Код  
