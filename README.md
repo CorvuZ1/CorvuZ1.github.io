@@ -1,4 +1,4 @@
-* <https://CorvuZ1.github.io/github-users> // Поиск пользователей. Github API,  
+* <https://CorvuZ1.github.io/github-users> // Поиск пользователей. Github API,
 * <https://github.com/CorvuZ1/github-users> // Код  
 
 * <https://Corvuz1.github.io/cryptoConverter> // Конвертер криптовалют с графиком на React,  
