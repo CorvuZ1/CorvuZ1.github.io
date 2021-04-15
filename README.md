@@ -13,7 +13,7 @@
   <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/weather> // Код  
 
 * <https://CorvuZ1.github.io/coin-calc> // Подкидывание монетки с результатами,  
-  <https://github.com/CorvuZ1/coin-calc>  // Код 
+  <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/coin-calc>  // Код 
 
 * <https://Corvuz1.github.io/github-users> // Поиск пользователей: Github API,  
   <https://github.com/CorvuZ1/github-users> // Код  
