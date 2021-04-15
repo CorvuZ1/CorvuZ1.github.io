@@ -10,7 +10,7 @@
 * <https://github.com/CorvuZ1/test-task> // Код тестового задания: React + Redux  
 
 * <https://CorvuZ1.github.io/weather> // Weather API,  
-  <https://github.com/CorvuZ1/weather> // Код  
+  <https://github.com/CorvuZ1/corvuZ1.github.io/weather> // Код  
 
 * <https://CorvuZ1.github.io/coin-calc> // Подкидывание монетки с результатами,  
   <https://github.com/CorvuZ1/coin-calc>  // Код 
