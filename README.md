@@ -19,7 +19,7 @@
   <https://github.com/CorvuZ1/github-users> // Код  
 
 * <https://corvuz1.github.io/strict> // Верстка сайта,  
-  <https://github.com/CorvuZ1/strict> // Код  
+  <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict> // Код  
   
 * <https://corvuz1.github.io/WhiteDevelopment/index.html>. // Делающаяся верстка сайта,
   <https://github.com/CorvuZ1/WhiteDevelopment> // Код
