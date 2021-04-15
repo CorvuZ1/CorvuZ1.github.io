@@ -15,8 +15,8 @@
 * <https://CorvuZ1.github.io/coin-calc> // Подкидывание монетки с результатами,  
   <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/coin-calc>  // Код 
 
-* <https://Corvuz1.github.io/github-users> // Поиск пользователей: Github API,  
-  <https://github.com/CorvuZ1/github-users> // Код  
+
+
 
 * <https://corvuz1.github.io/strict> // Верстка сайта,  
   <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict> // Код  
