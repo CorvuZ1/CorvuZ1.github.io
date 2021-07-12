@@ -2,7 +2,10 @@
   <https://github.com/CorvuZ1/github-users/tree/master/src> // Код  
 
 * <https://corvuz1.github.io/strict> // Адаптивная верстка сайта,  
-  <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict> // Код  
+  <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict> // Код
+  
+* <https://corvuz1.github.io/WhiteDevelopment/index.html> // Адаптивная верстка главной страницы сайта,  
+  <https://github.com/CorvuZ1/WhiteDevelopment> // Код
 
 * <https://Corvuz1.github.io/cryptoConverter> // Конвертер криптовалют с графиком на React,  
   <https://github.com/CorvuZ1/cryptoConverter/tree/master/src> // Код  
