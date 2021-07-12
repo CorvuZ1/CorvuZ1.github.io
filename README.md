@@ -1,6 +1,9 @@
 * <https://CorvuZ1.github.io/github-users> // Поиск пользователей. Github API,  
   <https://github.com/CorvuZ1/github-users> // Код  
 
+* <https://corvuz1.github.io/strict> // Адаптивная верстка сайта,  
+  <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict> // Код  
+
 * <https://Corvuz1.github.io/cryptoConverter> // Конвертер криптовалют с графиком на React,  
   <https://github.com/CorvuZ1/cryptoConverter> // Код  
 
@@ -14,9 +17,6 @@
 
 * <https://CorvuZ1.github.io/weather> // Weather API,  
   <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/weather> // Код  
-
-* <https://corvuz1.github.io/strict> // Верстка сайта,  
-  <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict> // Код  
   
 
 
