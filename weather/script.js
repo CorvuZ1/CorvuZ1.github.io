@@ -78,5 +78,3 @@ function dateBuilder(date) {
 function toCelsius(kelvins) {
     return kelvins - 273.15;
 }
-// https://youtu.be/n4dtwWgRueI?t=1118
-// http://api.openweathermap.org/data/2.5/weather?q=London&APPID=543889e9d4515a140284d0dcc283ef8a
