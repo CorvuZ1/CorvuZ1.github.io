@@ -1,6 +1,6 @@
 * <https://CorvuZ1.github.io/github-users>  Поиск пользователей. Github API,  
   <https://github.com/CorvuZ1/github-users/tree/master/src>  Код  
-
+***
 * <https://corvuz1.github.io/strict>  Адаптивная верстка сайта,  
   <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict>  Код
   
