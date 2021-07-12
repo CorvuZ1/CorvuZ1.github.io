@@ -7,7 +7,7 @@
   *  <https://corvuz1.github.io/WhiteDevelopment/index.html>  Адаптивная верстка главной страницы сайта,  
      <https://github.com/CorvuZ1/WhiteDevelopment>  Код  
   
-  *  <https://corvuz1.github.io/BicycleShop/index.html> Делающийся сайт (Ещё без адаптивности),  
+  *  <https://corvuz1.github.io/BicycleShop/index.html> Делающийся сайт (Без адаптивности и много другого),  
      <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/BicycleShop> Код  
   
   *  <https://Corvuz1.github.io/cryptoConverter>  Конвертер криптовалют с графиком на React,  
