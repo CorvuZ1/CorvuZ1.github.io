@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Lato-b";
+  src: url("fonts/Lato/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato-r";
+  src: url("fonts/Lato/Lato-Light.ttf");
+}
+
+@mixin font($fontfamily, $color, $size) {
+  font-family: $fontfamily;
+  color: $color;
+  font-size: $size;
+}
