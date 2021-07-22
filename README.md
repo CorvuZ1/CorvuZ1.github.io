@@ -1,9 +1,9 @@
   *  <https://CorvuZ1.github.io/github-users>  **_Поиск пользователей. Github API_**  
      - <https://github.com/CorvuZ1/github-users/tree/master/src>  Код  
-
+  
   *  <https://corvuz1.github.io/Unico/> **_Адаптивная верстка страницы магазина_**  
      - <https://github.com/CorvuZ1/Unico> Код  
-
+  
   *  <https://corvuz1.github.io/strict>  **_Адаптивная верстка сайта_**  
      - <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/strict>  Код  
   
