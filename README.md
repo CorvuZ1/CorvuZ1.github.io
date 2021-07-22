@@ -1,4 +1,4 @@
-  *  <https://CorvuZ1.github.io/github-users>  **Поиск пользователей. Github API,**  
+  *  <https://CorvuZ1.github.io/github-users>  **_Поиск пользователей. Github API,_**  
      <https://github.com/CorvuZ1/github-users/tree/master/src>  Код  
 
   *  <https://corvuz1.github.io/Unico/> Адаптивная верстка страницы магазина  
