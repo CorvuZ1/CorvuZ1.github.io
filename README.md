@@ -10,9 +10,6 @@
   *  <https://CorvuZ1.github.io/github-users>  **_Поиск пользователей. Github API_**  
      - <https://github.com/CorvuZ1/github-users/tree/master/src>  Код  
 
-  *  <https://corvuz1.github.io/BicycleShop/index.html> **_Делающийся сайт (Еще без адаптивности и много другого)_**  
-     - <https://github.com/CorvuZ1/CorvuZ1.github.io/tree/master/BicycleShop> Код  
-
   *  <https://Corvuz1.github.io/cryptoConverter>  **_Конвертер криптовалют с графиком на React_**  
      - <https://github.com/CorvuZ1/cryptoConverter/tree/master/src>  Код  
 
