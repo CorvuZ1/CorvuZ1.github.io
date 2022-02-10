@@ -1,5 +1,5 @@
-  *  <https://corvuz1.github.io/dolshik-gh-pages/> **_Адаптивная верстка_**
-     - <https://github.com/CorvuZ1/dolshik-gh-pages> Код
+  *  <https://corvuz1.github.io/dolshik/> **_Адаптивная верстка_**
+     - <https://github.com/CorvuZ1/dolshik> Код
   
   *  <https://corvuz1.github.io/Unico/> **_Адаптивная верстка страницы магазина_**  
      - <https://github.com/CorvuZ1/Unico> Код  
