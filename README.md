@@ -1,6 +1,6 @@
   *  <https://github.com/CorvuZ1/url_shortener>  **_Код корпоративного сокращателя ссылок (React, Express, MongoDB)_**
 
-  *  <https://github.com/CorvuZ1/blog> **_Личный сайт с админкой (NEXT, TS, DOCKER, STRAPI)_**
+  *  <https://github.com/CorvuZ1/blog> **_Личный сайт с админкой - WIP (NEXT, TS, DOCKER, STRAPI)_**
 
   *  <https://corvuz1.github.io/dolshik/> **_Адаптивная верстка_**
      - <https://github.com/CorvuZ1/dolshik> Код
