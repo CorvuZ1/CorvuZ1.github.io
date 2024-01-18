@@ -1,4 +1,4 @@
-  *  <https://github.com/CorvuZ1/url_shortener>  **_Код корпоративного сокращателя ссылок ( React, Express, MongoDB )_**
+  *  <https://github.com/CorvuZ1/url_shortener>  **_Код корпоративного сокращателя ссылок (React, Express, MongoDB)_**
 
   *  <https://github.com/CorvuZ1/blog> **_Личный сайт с админкой (NEXT, TS, STRAPI)_**
 
