@@ -2,6 +2,9 @@
 
   *  <https://github.com/CorvuZ1/blog> **_Личный сайт с админкой - WIP (NEXT, TS, DOCKER, STRAPI)_**
 
+  *  <https://4aconsulting2026.vercel.app/> **_Пример тестового задания_**
+     - <https://github.com/CorvuZ1/4a.consulting_2026>
+
   *  <https://corvuz1.github.io/dolshik/> **_Адаптивная верстка_**
      - <https://github.com/CorvuZ1/dolshik> Код
   
