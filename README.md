@@ -3,7 +3,7 @@
   
   *  <https://github.com/CorvuZ1/url_shortener>  **_Код корпоративного сокращателя ссылок (React, Express, MongoDB)_**
 
-  *  <https://github.com/CorvuZ1/blog> **_Личный сайт с админкой - (NEXT, TS, DOCKER, STRAPI)_**
+  *  <https://github.com/CorvuZ1/blog> **_Шаблон блога с админ-панелью - (NEXT, TS, DOCKER, STRAPI)_**
 
   *  <https://4aconsulting2026.vercel.app/> **_Пример тестового задания_**
      - <https://github.com/CorvuZ1/4a.consulting_2026>
