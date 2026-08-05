@@ -1,8 +1,9 @@
   *  <https://portfolio-gamma-indol-83.vercel.app/> **_Шаблон сайта-портфолио_**  
      - <https://github.com/CorvuZ1/portfolio> Код  
 
-  *  <https://github.com/CorvuZ1/skulptura>  **_Код проекта косметологии (NextJS, PayloadCMS, Tailwind, Docker)_**  
-
+  *  <https://skulptura39.ru>  **_Проект косметологии (NextJS, PayloadCMS, Tailwind, Docker)_**  
+     - <https://github.com/CorvuZ1/skulptura>  Код  
+  
   *  <https://github.com/CorvuZ1/url_shortener>  **_Код корпоративного сокращателя ссылок (React, Express, MongoDB)_**  
 
   *  <https://github.com/CorvuZ1/blog> **_Шаблон блога с админ-панелью - (NextJS, TS, Docker, Strapi)_**  
