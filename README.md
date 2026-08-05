@@ -8,10 +8,10 @@
   *  <https://github.com/CorvuZ1/blog> **_Шаблон блога с админ-панелью - (NextJS, TS, Docker, Strapi)_**  
 
   *  <https://4aconsulting2026.vercel.app/> **_Пример тестового задания_**  
-     - <https://github.com/CorvuZ1/4a.consulting_2026>  
+     - <https://github.com/CorvuZ1/4a.consulting_2026> Код  
 
   *  <https://corvuz1.github.io/dolshik/> **_Адаптивная верстка_**
-     - <https://github.com/CorvuZ1/dolshik> Код
+     - <https://github.com/CorvuZ1/dolshik> Код  
   
   *  <https://corvuz1.github.io/Unico/> **_Адаптивная верстка страницы магазина_**  
      - <https://github.com/CorvuZ1/Unico> Код  
